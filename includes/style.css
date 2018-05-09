@@ -1,10 +1,10 @@
-*{ padding: 0px; margin: 0px; }
+*{ padding: 0px; margin: 0px;}
 
 header,a,nav,aside, article,section,footer,main{display: block;}
 
 #wrapper{
     margin: 0px auto;
-    width 1000px;
+    width: 1000px;
     height: 1000px;
 }
 
@@ -20,7 +20,7 @@ header{
     height: 183px;
 }
 
-nav{
+header nav{
     width: 727px;
     height: 57px;
     background-color: #b94a48;
@@ -84,7 +84,7 @@ article{
 }
 
 
-section article{
+#box1{
     top:90px;
     left: 344px;
     width: 126px;
@@ -101,4 +101,71 @@ main article{
     left: 220px;
     width: 692px;
     height: 174px;
+}
+
+/*----Layout 2------*/
+
+
+nav{
+    width: 243px;
+    height: 886px;
+    background-color: #333333;
+    float: left;
+}
+body nav ul .selected{
+    background-color: #b94a48;
+    height: 60px;
+    width: 243px;
+}
+
+main section{
+    margin: 0px;
+    background-color: #ee5f5b;
+    width: 757px;
+    height: 886px;
+
+}
+.layot2_body_articles{
+    position: relative;
+}
+.layot2_body_articles article:nth-child(1){
+     height: 366px;
+     width: 212px;
+     position: absolute;
+    top: 0px;
+    left: 32px;
+ }
+.layot2_body_articles article:nth-child(2){
+    height: 560px;
+    width: 212px;
+    position: absolute;
+    top: 0px;
+    left: 272px;
+}
+.layot2_body_articles article:nth-child(3){
+    height: 223px;
+    width: 212px;
+    position: absolute;
+    top: 0px;
+    left: 514px;
+}
+.layot2_body_articles article:nth-child(4){
+    height: 500px;
+    width: 212px;
+    position: absolute;
+    top: 386px;
+    left: 32px;
+}
+.layot2_body_articles article:nth-child(5){
+    height: 306px;
+    width: 212px;
+    position: absolute;
+    top: 580px;
+    left: 272px;
+}
+
+.footer_second_layout{
+    position: fixed;
+    bottom: 0px;
+    height: 50px;
 }
