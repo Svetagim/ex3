@@ -6,7 +6,9 @@
     font-family: Arial,sans-serif;
 }
 
-header,a,nav,aside, article,section,footer,main{display: block;}
+header, a, nav,aside, article, section, footer, main{display: block;}
+
+
 
 #wrapper{
     margin: 0px auto;
@@ -25,11 +27,7 @@ a{
     text-decoration: none;
 }
 
-article{
-    position: absolute;
-    background-color: #000000;
-    opacity: 0.6;
-}
+article{background-color: #000000;}
 
 li{
     position: relative;
@@ -50,7 +48,6 @@ main{
     height: 97px;
     background-image: url(../images/logo.png);
     background-repeat: no-repeat;
-    display: block;
 }
 
 /*-----layout1--------*/
@@ -106,7 +103,11 @@ main{
     margin-left: 30px;
     position: relative;
 }
-
+#layout1 article{
+    position: absolute;
+    background-color: #000000;
+    opacity: 0.6;
+}
 #layout1 footer{
     width:1000px;
     height: 121px;
@@ -171,6 +172,12 @@ main{
     position: relative;
     float: left;
 }
+
+#layout2 article{
+    position: absolute;
+    background-color: #000000;
+    opacity: 0.6;
+}
 #layout2 section article:nth-child(1){
     height: 366px;
     width: 212px;
@@ -209,4 +216,87 @@ main{
     background-color: #d6d6d6;
     position: fixed;
     bottom:0px;
+}
+
+/*----Layout 3------*/
+
+
+#layout3 header{
+    height: 50%;
+    width: 50%;
+    float: left;
+    position: relative;
+}
+#layout3 #logo{
+     margin-left: 20px;
+     margin-top: 20px;
+ }
+#layout3 #plus{
+    width: 120px;
+    height: 120px;
+    background-image: url(../images/plus.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 200px;
+    top: 205px;
+}
+#layout3 section{
+    height: 50%;
+    width: 50%;
+    float: right;
+    background-color: #9d261d;
+}/*
+#layout3 section article {
+    height: 50%;
+    width: 50%;
+    float: left;
+}
+#layout3 section article:nth-child(1){
+    opacity: 0.3;
+}
+#layout3 section article:nth-child(2) {
+    opacity: 0.5;
+}
+#layout3 section article:nth-child(3) {
+    opacity: 0.7;
+}
+#layout3 section article:nth-child(4) {
+    opacity: 0.9;
+}*/
+
+#layout3 main{
+    height: 50%;
+    width: 100%;
+    float: left;
+    background-color: #9d261d;
+}
+
+#layout3 section article:hover{
+    background-color: #ffffff;
+    opacity: 1;
+}
+
+#layout3 nav{
+    width: 500px;
+    height: 60px;
+    background-color: #b94a48;
+    float: right;
+    position: relative;
+    top: 311px;
+
+}
+
+#layout3 li {
+    width: 166px;
+    text-align: center;
+}
+
+
+#layout3 .selected{
+    background-color: #333333;
+    height: 48px;
+}
+#layout3 a{
+    padding-top: 12px;
+    width: 169px;
 }
