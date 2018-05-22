@@ -240,40 +240,26 @@ main{
     left: 200px;
     top: 205px;
 }
-#layout3 section{
-    height: 50%;
-    width: 50%;
-    float: right;
-    background-color: #9d261d;
-}/*
-#layout3 section article {
-    height: 50%;
-    width: 50%;
-    float: left;
-}
-#layout3 section article:nth-child(1){
-    opacity: 0.3;
-}
-#layout3 section article:nth-child(2) {
-    opacity: 0.5;
-}
-#layout3 section article:nth-child(3) {
-    opacity: 0.7;
-}
-#layout3 section article:nth-child(4) {
-    opacity: 0.9;
-}*/
 
-#layout3 main{
+@media (max-wi§]) {
+    
+}
+#layout3 main {
     height: 50%;
     width: 100%;
     float: left;
     background-color: #9d261d;
 }
+#layout3 section{
+    height: 50%;
+    width: 50%;
+    float: right;
+    background-color: #9d261d;
+}
 
-#layout3 section article:hover{
-    background-color: #ffffff;
-    opacity: 1;
+#layout3 article:hover{
+    background-color: #ffffff !important;
+    opacity: 1 !important;
 }
 
 #layout3 nav{

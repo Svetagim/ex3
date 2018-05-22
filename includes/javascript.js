@@ -10,13 +10,7 @@ window.onload=function(){
         newSquare.style.opacity=Math.random();
     }
 }
-/*
-document.onmousemove=function () {
-    var element;
-    element.style.background="#ffffff";
-    element.style.opacity="1";
-}
-*/
+
 
 document.onclick=function (){
     console.log("click")
