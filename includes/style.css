@@ -228,9 +228,9 @@ main{
     position: relative;
 }
 #layout3 #logo{
-     margin-left: 20px;
-     margin-top: 20px;
- }
+    margin-left: 20px;
+    margin-top: 20px;
+}
 #layout3 #plus{
     width: 120px;
     height: 120px;
@@ -239,27 +239,6 @@ main{
     position: absolute;
     left: 200px;
     top: 205px;
-}
-
-@media (max-wi§]) {
-    
-}
-#layout3 main {
-    height: 50%;
-    width: 100%;
-    float: left;
-    background-color: #9d261d;
-}
-#layout3 section{
-    height: 50%;
-    width: 50%;
-    float: right;
-    background-color: #9d261d;
-}
-
-#layout3 article:hover{
-    background-color: #ffffff !important;
-    opacity: 1 !important;
 }
 
 #layout3 nav{
@@ -272,17 +251,38 @@ main{
 
 }
 
-#layout3 li {
-    width: 166px;
-    text-align: center;
+#layout3 main {
+    min-height: 50%;
+    width: 100%;
+    float: left;
+    background-color: #9d261d;
 }
 
+#layout3 section{
+    height: 50%;
+    width: 50%;
+    float: right;
+    background-color: #9d261d;
+}
 
-#layout3 .selected{
-    background-color: #333333;
-    height: 48px;
-}
-#layout3 a{
-    padding-top: 12px;
-    width: 169px;
-}
+    #layout3 article:hover{
+        background-color: #ffffff !important;
+        opacity: 1 !important;
+    }
+
+
+
+    #layout3 li {
+        width: 166px;
+        text-align: center;
+    }
+
+
+    #layout3 .selected{
+        background-color: #333333;
+        height: 48px;
+    }
+    #layout3 a{
+        padding-top: 12px;
+        width: 169px;
+    }
